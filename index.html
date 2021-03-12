@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-sokoban</title>
+    <style>
+        #game {
+            margin: 0 auto;
+            position: relative;
+        }
+        #game .ele {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-size: cover;
+        }
+        #game .wall {
+            background-image: url(./imgs/wall.jpg);
+        }
+        #game .player {
+            background-image: url(./imgs/player.png);
+        }
+        #game .box {
+            background-image: url(./imgs/box.png);
+        }
+        #game .over_box {
+            background-image: url(./imgs/over_box.png);
+        }
+        #game .right_location {
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="game">
+        
+    </div>
+    <script src="./modules/event.js" type="module"></script>
+</body>
+</html>
